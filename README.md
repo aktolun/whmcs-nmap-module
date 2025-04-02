@@ -52,8 +52,8 @@ Modülün çalışması için Nmap API sunucusuna ihtiyaç vardır. Bu sunucu ay
 
 3. API sunucusu projesini GitHub'dan indirin:
    ```bash
-   git clone https://github.com/aktolun/nmap-api-server.git
-   cd nmap-api-server
+   git clone https://github.com/aktolun/whmcs-nmap-module.git
+   cd whmcs-nmap-module
    ```
 
 4. Bağımlılıkları yükleyin:
@@ -76,7 +76,7 @@ Modülün çalışması için Nmap API sunucusuna ihtiyaç vardır. Bu sunucu ay
 
 6. PM2 ile API sunucusunu başlatın:
    ```bash
-   pm2 start server.js --name "nmap-api-server"
+   pm2 start server.js --name "whmcs-nmap-module"
    ```
 
 7. PM2'yi sistem açılışında otomatik başlatmak için:
@@ -93,12 +93,12 @@ Modülün çalışması için Nmap API sunucusuna ihtiyaç vardır. Bu sunucu ay
 
 9. API sunucusu loglarını görüntülemek için:
    ```bash
-   pm2 logs nmap-api-server
+   pm2 logs whmcs-nmap-module
    ```
 
 10. Sunucuyu yeniden başlatmak için:
     ```bash
-    pm2 restart nmap-api-server
+    pm2 restart whmcs-nmap-module
     ```
 
 Bu adımları tamamladıktan sonra, WHMCS Security Scanner modülünün ayarlarında "API URL" alanına `http://localhost:3000` (veya sunucunuzun IP adresini) ve "API Key" alanına oluşturduğunuz API anahtarını girin.
@@ -115,8 +115,8 @@ Not: Güvenlik için, API anahtarınızı karmaşık ve tahmin edilemez yapın v
 
 2. API sunucusu projesini GitHub'dan indirin:
    ```bash
-   git clone https://github.com/aktolun/nmap-api-server.git
-   cd nmap-api-server
+   git clone https://github.com/aktolun/whmcs-nmap-module.git
+   cd whmcs-nmap-module
    ```
 
 3. Bağımlılıkları yükleyin:
