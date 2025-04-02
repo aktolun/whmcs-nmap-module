@@ -1,17 +1,6 @@
 # WHMCS NMap Modülü 
 
-Bu modül ile müşterilerinize ait aktif kullanımda olan IP adresleri üzerinde nmap taraması gerçekleştirebilir ve sonuçları WHMCS üzerinde görüntüleyebilirsiniz. Ayrıca dilerseniz WHMCS'de kayıtlı olmayan IP adresleri üzerinde de tarama işlemi gerçekleştirebilirsiniz.
-
-## Özellikler
-
-- Otomatik ve manuel IP tarama
-- Zaman ayarlı tarama
-- Aktif IP'lerin listesi ile kolay tarama
-- Özel IP adresleri ile tarama imkanı
-- Tarama sonuçlarının detaylı raporlanması
-- Gelişmiş güvenlik açığı tespiti
-- Port tarama ve servis tespiti
-- Filtreli tarama sonuçları görüntüleme
+Bu modül ile müşterileriniz tarafından aktif kullanımda olan IP adresleri üzerinde nmap taraması gerçekleştirebilir ve sonuçları WHMCS üzerinde görüntüleyebilirsiniz. Ayrıca dilerseniz WHMCS'de kayıtlı olmayan IP adresleri üzerinde de tarama işlemi gerçekleştirebilirsiniz.
 
 
 ## Gereksinimler
