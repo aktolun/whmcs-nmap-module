@@ -1,0 +1,13 @@
+{
+    "name": "whmcs/securityscanner",
+    "description": "Nmap tabanlı güvenlik tarama modülü",
+    "type": "whmcs-addon",
+    "autoload": {
+        "psr-4": {
+            "WHMCS\\Module\\Addon\\SecurityScanner\\": "lib/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+} 
