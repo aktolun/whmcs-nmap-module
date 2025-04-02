@@ -1,6 +1,6 @@
 # WHMCS NMap Modülü 
 
-Bu modül ile müşterileriniz tarafından aktif kullanımda olan IP adresleri üzerinde nmap taraması gerçekleştirebilir ve sonuçları WHMCS üzerinde görüntüleyebilirsiniz. Ayrıca dilerseniz WHMCS'de kayıtlı olmayan IP adresleri üzerinde de tarama işlemi gerçekleştirebilirsiniz.
+Bu modül **TRNOG Topluluğu** için geliştirilmiştir. Bu modül ile müşterileriniz tarafından aktif kullanımda olan IP adresleri üzerinde nmap taraması gerçekleştirebilir ve sonuçları WHMCS üzerinde görüntüleyebilirsiniz. Ayrıca dilerseniz WHMCS'de kayıtlı olmayan IP adresleri üzerinde de tarama işlemi gerçekleştirebilirsiniz.
 
 
 ## Gereksinimler
